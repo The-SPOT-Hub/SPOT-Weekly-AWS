@@ -4,7 +4,7 @@
 
 This repository contains automation that posts when2meet links to the #the-spot Slack channel every Thursday morning. It replaces the manual process of creating when2meet links and posting them to Slack.
 
-This is the current, active version of the automation, migrated from a prior GitHub Actions–based system. See [SPOT-Automation-Weekly](https://github.com/The-SPOT-Hub/SPOT-Automation-Weekly) (archived) for the previous implementation.
+This is the current, active version of the automation, migrated from a prior GitHub Actions–based system. See [SPOT-Automation-Weekly](https://github.com/The-SPOT-Hub/SPOT-Automation-Weekly) for the previous implementation.
 
 **What it does:**
 - Generates when2meet links for Launch School courses (see `config.py` for full list)
