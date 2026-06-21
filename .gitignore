@@ -13,3 +13,9 @@ __pycache__/
 
 # Zip files
 *.zip
+
+# Layer
+layers/shared/python/*
+!layers/shared/python/config.py
+!layers/shared/python/slack.py
+!layers/shared/python/w2m.py
