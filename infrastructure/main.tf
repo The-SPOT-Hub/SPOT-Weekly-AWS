@@ -47,8 +47,8 @@ resource "aws_iam_role" "spot_weekly_scheduler_role" {
 
 data "archive_file" "shared_layer_weekly" {
   type = "zip"
-  source_dir = "${path.module}/../layers/shared/python"
-  output_path = "${path.module}/../layers/shared/shared_layer.zip"
+  source_dir = "${path.module}/../layers/shared"
+  output_path = "${path.module}/../build/shared_layer.zip"
 }
 
 resource "aws_lambda_layer_version" "spotWeeklyShared" {
