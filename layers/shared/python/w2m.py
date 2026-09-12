@@ -17,7 +17,7 @@ def post_form(title, dates_str):
         'NewEventName': title,
         'DateTypes': 'SpecificDates',
         'PossibleDates': dates_str,
-        'NoEarlierThan': '4',
+        'NoEarlierThan': '0',
         'NoLaterThan': '0',
         'TimeZone': 'America/New_York',
     }
